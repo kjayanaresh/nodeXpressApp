@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var app = express_1.default();
 app.get('/', function (req, res) {
-    res.send('Well done! Buddy...');
+    res.send('Well done! Buddy... :-)');
 });
-app.listen(3000, function () {
-    console.log('The application is listening on port 3000!');
+app.listen(8080, function () {
+    console.log('The application is listening on port 8080!');
 });
